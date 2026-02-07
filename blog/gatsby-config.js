@@ -15,11 +15,18 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     contact: {
       name: `Rickey Chang`,
-      company: 'ITDEV164 Blogs',
-      address: `PO BOX 1234`
-    }
+      company: "ITDEV164 Blogs",
+      address: `PO BOX 1234`,
+    },
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      option: {
+        spaceId: `n9lhcuzvq3wh`,
+        accessToken: `FXsGumXWJVy95qnovtwNkxmXvce4vpeLiVyqAQM8k9g`,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
