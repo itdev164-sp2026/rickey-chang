@@ -22,7 +22,7 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-contentful`,
-      option: {
+      options: {
         spaceId: `n9lhcuzvq3wh`,
         accessToken: `FXsGumXWJVy95qnovtwNkxmXvce4vpeLiVyqAQM8k9g`,
       },
