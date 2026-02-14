@@ -13,7 +13,7 @@ const BlogPost = ({ data }) => {
     )
 }
 
-export default BlogPost
+export default BlogPost;
 
 export const pageQuery = graphql`
   query blogPostQuery($slug: String!) {
